@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: zackweb
-        image: zackz001/gitops-jekyll:32
+        image: zackz001/gitops-jekyll:v32
         ports:
         - containerPort: 80
