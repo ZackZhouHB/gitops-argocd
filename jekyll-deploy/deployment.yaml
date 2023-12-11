@@ -5,7 +5,7 @@ metadata:
   labels:
     app: zackweb
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: zackweb
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: zackweb
-        image: zackz001/gitops-jekyll:latest
+        image: zackz001/gitops-jekyll:32
         ports:
         - containerPort: 80
