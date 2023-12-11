@@ -16,7 +16,7 @@ spec:
     namespace: zzweb # argocd will create this ns and deploy to 
   
   syncPolicy:
-    sync-options:
+    sync-Options:
     - CreateNamespace=true
     automated:  # fetch and sync any git changes, turn off by default
       prune: true  # argo to delete service when delete frim git
